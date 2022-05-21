@@ -2,7 +2,6 @@ var assert = require('assert');
 var expect    = require("chai").expect;
 var converter = require("../app/converter");
 
-
 describe('Array', function () {
   describe('#indexOf()', function () {
     it('should return -1 when the value is not present', function () {
@@ -10,8 +9,6 @@ describe('Array', function () {
     });
   });
 });
-
-
 
 describe("Color Code Converter", function() {
   describe("RGB to Hex conversion", function() {
